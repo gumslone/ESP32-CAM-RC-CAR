@@ -11,7 +11,7 @@ Parts that i've used:
 
 esp32-cam module, order link http://ali.pub/3ck3dr
 
-Motor driver, order link http://ali.pub/3ck3gv
+motor driver, order link http://ali.pub/3ck3gv
 
 some wires and usb to uart programmer like (http://ali.pub/3ck3je).
 
