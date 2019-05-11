@@ -21,3 +21,9 @@ some wires and usb to uart programmer like (http://ali.pub/3ck3je).
 
 connect motor driver to pins:
 12,13,14,15
+
+this is a first working code (alpha version) i plan to improve and extend it soon, there is a fail safe stop, inplemented into the code, in case some connection issues, the car will stob after 500ms, you can change the value in the .ino file.
+
+i have noticed that esp32-module doenst start sometimes properly when i connect power to it, so i have to disconnect the motor driver before i connect the power, so that the esp32 starts properly, after that i connect the power wire to motor driver, but i think this depends on your power source, also adding some caps may fix this issue.
+
+another issue that I have noticed is that I can't let the motors on left side rotate forward with the right side motors rotate backward and vice versa, it doesnt seem to work with esp32 cam module, but it works without it wery well, so any ideas are welcome.
