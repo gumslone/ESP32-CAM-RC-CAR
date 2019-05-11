@@ -21,11 +21,11 @@ void startCameraServer();
 
 
 // GPIO Setting
-int gpLb = 14; //D4, Left Wheel Back
-int gpLf = 15; //D3, Left Wheel Forward
-int gpRb = 13; //D2, Right Wheel Back
-int gpRf = 12; //D1, Right Wheel Forward
-int led = 4; //D2, Right Wheel Forward
+int gpLb = 14; //
+int gpLf = 15; //
+int gpRb = 13; //
+int gpRf = 12; //
+int led = 4; //
 int _speed = 100; //pwm speed
 int _light = 10; //light pwm
 unsigned long currentMillis;
