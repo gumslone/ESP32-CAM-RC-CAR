@@ -1,6 +1,10 @@
 # ESP32-CAM-RC-CAR
 Create your own surveillance bot controlled by an esp32-cam module
 
+![photo](https://github.com/gumslone/ESP32-CAM-RC-CAR/blob/master/photo.jpg?raw=true)
+
+![screenshot](https://github.com/gumslone/ESP32-CAM-RC-CAR/blob/master/Screenshot.png?raw=true)
+
 this code is based on a standard demo for the esp32-cam module,
 i extended the web interface with buttons to controll a rc-surveillance-car,
 also added modifications the C code.
