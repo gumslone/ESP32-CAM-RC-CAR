@@ -20,7 +20,7 @@ motor driver, order link http://ali.pub/3ck3gv
 some wires and usb to uart programmer like (http://ali.pub/3ck3je).
 
 connect motor driver to pins:
-12,13,14,15
+2,13,14,15
 
 this is a first working code (alpha version) i plan to improve and extend it soon, there is a fail safe stop, inplemented into the code, in case some connection issues, the car will stob after 500ms, you can change the value in the .ino file.
 
